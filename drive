@@ -1,0 +1,15 @@
+print ("Hello ")
+help=input("How may i help: ")
+while help=="help":
+    print ("start - start yhe car\n"
+           "stop - stop the car\n"
+           "quit - to exit\n")
+    msg=input("Instruction: ").lower()
+    if msg.lower() == "start":
+        print("Car is started")
+    elif msg=="stop":
+        print ("Car is stopped")
+    else:
+        break
+else:
+    print ("I dint understand")
